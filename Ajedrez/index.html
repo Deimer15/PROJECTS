@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAROLLO DE JUEGOS</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./grid.css">
+</head>
+
+<body>
+    <header>
+        <h1>TABLERO DE AJEDREZ</h1>
+    </header>
+    <div class="content">
+
+        <span class="black" id="18" data-fila="8" data-columna="1" onclick="move(this.id)">&#9820</span>
+        <span class="white" id="28" data-fila="8" data-columna="2" onclick="move(this.id)">&#9822</span>
+        <span class="black" id="38" data-fila="8" data-columna="3" onclick="move(this.id)">&#9821</span>
+        <span class="white" id="48" data-fila="8" data-columna="4" onclick="move(this.id)">&#9818</span>
+        <span class="black" id="58" data-fila="8" data-columna="5" onclick="move(this.id)">&#9819</span>
+        <span class="white" id="68" data-fila="8" data-columna="6" onclick="move(this.id)">&#9821</span>
+        <span class="black" id="78" data-fila="8" data-columna="7" onclick="move(this.id)">&#9822</span>
+        <span class="white" id="88" data-fila="8" data-columna="8" onclick="move(this.id)">&#9820</span>
+
+        <span class="white" id="17" data-fila="7" data-columna="1" onclick="move(this.id)">&#9823</span>
+        <span class="black" id="27" data-fila="7" data-columna="2" onclick="move(this.id)">&#9823</span>
+        <span class="white" id="37" data-fila="7" data-columna="3" onclick="move(this.id)">&#9823</span>
+        <span class="black" id="47" data-fila="7" data-columna="4" onclick="move(this.id)">&#9823</span>
+        <span class="white" id="57" data-fila="7" data-columna="5" onclick="move(this.id)">&#9823</span>
+        <span class="black" id="67" data-fila="7" data-columna="6" onclick="move(this.id)">&#9823</span>
+        <span class="white" id="77" data-fila="7" data-columna="7" onclick="move(this.id)">&#9823</span>
+        <span class="black" id="87" data-fila="7" data-columna="8" onclick="move(this.id)">&#9823</span>
+
+        <span class="black" id="16" data-fila="6" data-columna="1" onclick="move(this.id)"></span>
+        <span class="white" id="26" data-fila="6" data-columna="2" onclick="move(this.id)"></span>
+        <span class="black" id="36" data-fila="6" data-columna="3" onclick="move(this.id)"></span>
+        <span class="white" id="46" data-fila="6" data-columna="4" onclick="move(this.id)"></span>
+        <span class="black" id="56" data-fila="6" data-columna="5" onclick="move(this.id)"></span>
+        <span class="white" id="66" data-fila="6" data-columna="6" onclick="move(this.id)"></span>
+        <span class="black" id="76" data-fila="6" data-columna="7" onclick="move(this.id)"></span>
+        <span class="white" id="86" data-fila="8" data-columna="8" onclick="move(this.id)"></span>
+
+        <span class="white" id="15"></span>
+        <span class="black" id="25"></span>
+        <span class="white" id="35"></span>
+        <span class="black" id="45"></span>
+        <span class="white" id="55"></span>
+        <span class="black" id="65"></span>
+        <span class="white" id="75"></span>
+        <span class="black" id="85"></span>
+
+        <span class="black" id="14"></span>
+        <span class="white" id="24"></span>
+        <span class="black" id="34"></span>
+        <span class="white" id="44"></span>
+        <span class="black" id="54"></span>
+        <span class="white" id="64"></span>
+        <span class="black" id="74"></span>
+        <span class="white" id="84"></span>
+
+        <span class="white" id="13"></span>
+        <span class="black" id="23"></span>
+        <span class="white" id="33"></span>
+        <span class="black" id="43"></span>
+        <span class="white" id="53"></span>
+        <span class="black" id="63"></span>
+        <span class="white" id="73"></span>
+        <span class="black" id="83"></span>
+
+        <span class="black" id="12">&#9817</span>
+        <span class="white" id="22">&#9817</span>
+        <span class="black" id="32">&#9817</span>
+        <span class="white" id="42">&#9817</span>
+        <span class="black" id="52">&#9817</span>
+        <span class="white" id="62">&#9817</span>
+        <span class="black" id="72">&#9817</span>
+        <span class="white" id="82">&#9817</span>
+
+        <span class="white" id="11">&#9814</span>
+        <span class="black" id="21">&#9816</span>
+        <span class="white" id="31">&#9815</span>
+        <span class="black" id="41">&#9813</span>
+        <span class="white" id="51">&#9812</span>
+        <span class="black" id="61">&#9815</span>
+        <span class="white" id="71">&#9816</span>
+        <span class="black" id="81">&#9814</span>
+    </div>
+    <script src="./movimientos.js"></script>
+</body>
+
+</html>
